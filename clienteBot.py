@@ -2,7 +2,7 @@ import telebot
 import requests
 
 # 1. PEGA AQUÍ EL TOKEN QUE TE DIO BOTFATHER
-TOKEN = "8587357217:AAHdmcJ4_4Jvg3CPnk_Sx7t6ZwqQTpYOdho"
+TOKEN = "PonAquiElTokenDeTuBot"
 
 bot = telebot.TeleBot(TOKEN)
 
