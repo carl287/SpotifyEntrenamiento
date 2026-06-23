@@ -1,0 +1,4 @@
+# Ignorar todos los modelos entrenados y archivos Pickle
+*.pkl
+__pycache__/
+.ipynb_checkpoints/
