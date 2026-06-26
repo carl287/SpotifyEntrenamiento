@@ -58,7 +58,7 @@ if os.path.exists('metricas_rendimiento.json') and os.path.exists('predicciones_
         columnas_a_mostrar = [col for col in ['track_name', 'artists', 'popularity', 'Predicciones'] if col in df_predicciones.columns]
 
     # Tomamos únicamente las primeras 10 filas para que la vista sea súper compacta y elegante
-    df_resumen_predicciones = df_predicciones[columnas_a_mostrar].head(10)
+    df_resumen_predicciones = df_predicciones[columnas_a_mostrar]
     
     # Mostramos la tabla interactiva limpia y al ancho completo
     st.dataframe(df_resumen_predicciones, use_container_width=True, hide_index=True)
