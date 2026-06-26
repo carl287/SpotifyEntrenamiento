@@ -1,4 +1,13 @@
-# Ignorar todos los modelos entrenados y archivos Pickle
 *.pkl
 __pycache__/
 .ipynb_checkpoints/
+
+env/
+venv/
+.venv/
+ENV/
+.env
+.streamlit/secrets.toml
+.vscode/
+.DS_Store
+Thumbs.db
