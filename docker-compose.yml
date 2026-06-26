@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    container_name: spotify_dashboard_container
+    ports:
+      - "8501:8501"  
